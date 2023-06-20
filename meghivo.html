@@ -73,20 +73,6 @@
         .button:hover {
             background-color: #555555;
         }
-        .button1 {
-            display: inline-block;
-            background-color: #7289da;
-            color: #ffffff;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 4px;
-            border: none;
-            cursor: pointer;
-        }
-        
-        .button1:hover {
-            background-color: #555555;
-        }
     </style>
 </head>
 <body>
@@ -98,7 +84,6 @@
         <ul>
             <li><a href="https://msrv.netlify.app/">Home</a></li>
             <li><a href="https://msrv.netlify.app/meghivo">Server Invite</a></li>
-            <li><a herf="https://forms.gle/z15gKLe6RtkzewQ96">Early Access (Only applies to the first 10 users)</a></li>
         </ul>
     </nav>
     
@@ -110,7 +95,7 @@
           alert('The server is under development')
         }
       </script>
-        <button onclick="redirectToLink()">Early Access (Only applies to the first 10 users)</button>
+        <button onclick="redirectToLink()", class="button">Early Access (Only applies to the first 10 users)</button>
 
     <script>
         function redirectToLink() {
