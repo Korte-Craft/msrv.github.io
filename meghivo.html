@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MultiServer Meghívó</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background-color: #f1f1f1;
+            font-family: Righteous, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        nav {
+            background-color: #2DCB07;
+            padding: 10px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        nav li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 8px 16px;
+        }
+        
+        nav a:hover {
+            background-color: #1B1B1B;
+        }
+        
+        main {
+            padding: 20px;
+        }
+        
+        footer {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            background-color: #7289da;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .button:hover {
+            background-color: #555555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MultiServer Hungary</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="https://msrv.netlify.app//">Főoldal</a></li>
+            <li><a href="https://msrv.netlify.app/meghivo">Letöltések</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h2>Welcome on board!</h2>
+        <p>Meghívó gombbal:</p>
+        <button onClick="showAlert()">Server invite</button>
+      <script>
+        function showAlert() {
+          alert('The server is under development')
+        }
+      </script>
+    </main>
+    
+    <footer>
+        &copy; 2023 MultiServer Hungary; Minden jog fenntartva.
+    </footer>
+</body>
+</html>
